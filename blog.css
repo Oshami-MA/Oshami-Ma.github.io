@@ -1,0 +1,477 @@
+a:hover{
+    color : yellow;
+}
+.asso_description{
+    text-align: center;
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 30px;
+}
+
+body{
+    width : 95%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    border-left: solid black 2px;
+    border-right: solid black 2px;
+    border-bottom: solid black 2px;
+    background: white;
+    padding-bottom:50px;
+    
+}
+@media only screen and (max-width: 768px) {
+    width: 100%;
+}
+button {
+	border: none;
+	outline: none;
+	padding: 10px 5px;
+	border-radius: 50px;
+	color: #333;
+    background: linear-gradient(230.46deg, #5F5FF3 -2.98%, #B67DFF 68.14%, #FF83CD 104.54%);
+	margin-bottom: 10px;
+    margin-top: 10px;
+	box-shadow: 0 3px 20px 0 #0000003b;
+}
+.buttons{
+    margin-bottom: 25px;
+}
+.contact{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.femmes_emploi{
+    border: solid black 2px;
+    width: 300px;
+    transition: .3s;
+    border-radius: 10px;
+    text-align: center;
+    padding: 5px 5px 15px 5px;
+}
+.femmes_emploi:hover{
+    box-shadow: 10px 10px 10px blueviolet;
+}
+.flex_boxes1{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+.flex_boxes2{
+    display: flex;
+    justify-content: space-around;
+}
+footer{
+    background: linear-gradient(230.46deg, #5F5FF3 -2.98%, #B67DFF 68.14%, #FF83CD 104.54%);
+    height: 100%;
+}
+.footer_title{
+    color: white;
+}
+.sns{
+    margin-top: 100px;
+    padding-top: 50px;
+}
+.humanitaire1{
+    width: 200px;
+    height: 150px;
+}
+
+
+.fb{
+    padding: 50px;
+    transition: transform .2s; /* Animation */
+    width: 30px;
+    height: 30px;
+    margin: 0 auto;
+}
+.fb:hover{
+    -ms-transform: scale(1.5); /* IE 9 */
+    -webkit-transform: scale(1.5); /* Safari 3-8 */
+    transform: scale(1.5);
+}
+.insta{
+    padding: 50px;
+    transition: transform .2s;
+    width: 30px;
+    height: 30px;
+    margin: 0 auto;
+}
+.insta:hover{
+    -ms-transform: scale(1.5); /* IE 9 */
+    -webkit-transform: scale(1.5); /* Safari 3-8 */
+    transform: scale(1.5);
+}
+
+.twitter{
+    padding: 50px;
+    transition: transform .2s;
+    width: 30px;
+    height: 30px;
+    margin: 0 auto;
+}
+.twitter:hover{
+    -ms-transform: scale(1.5); /* IE 9 */
+    -webkit-transform: scale(1.5); /* Safari 3-8 */
+    transform: scale(1.5);
+}
+
+.linkedin{
+    padding: 50px;
+    transition: transform .2s;
+    width: 30px;
+    height: 30px;
+    margin: 0 auto;
+}
+.linkedin:hover{
+    -ms-transform: scale(1.5); /* IE 9 */
+    -webkit-transform: scale(1.5); /* Safari 3-8 */
+    transform: scale(1.5);
+}
+#slideshow{
+        background-size: contain;
+
+}
+.gradient-div{
+    text-decoration: underline;
+    align-items: center;
+    width: auto;
+    height:auto;
+    position: relative;
+    color: black;
+    background: aliceblue;
+    background-clip: padding-box;
+    border-radius: 10px;
+    text-align: center;
+    margin-bottom: auto;
+    margin-top: auto;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.gradient-div:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: -1;
+    margin: -10px;
+    border-radius: inherit;
+    background: linear-gradient(230.46deg, #5F5FF3 -2.98%, #B67DFF 68.14%, #FF83CD 104.54%);
+}
+h1 {
+    align-items: center;
+    margin: auto;
+    color: blueviolet;
+    margin-bottom: 50px;
+}
+
+
+.head_list{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    list-style-type: none;
+    color: aliceblue;
+    background : linear-gradient(to bottom right, transparent, blueviolet);
+    border: groove;
+    border-radius:35px;
+}
+
+html{
+    height : 100%;
+}
+
+.img{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    opacity: 0;
+    transition: opacity 2s scale(1);
+    border: solid blueviolet 5px;
+    border-radius: 30px;
+
+}
+.logo2{
+    width: 300px;
+    height: 250px;
+}
+img.show{
+    position: relative;
+    width: 800px;
+    height: 200px;
+    opacity: 1;
+    margin-bottom: 50px;
+
+}
+@keyframes opacity{
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+.menu_title{
+    margin-bottom: 30px;
+}
+
+.para_femmes_questions{
+    text-align: justify;
+    padding: 15px;
+}
+#para_menu{
+    border-radius: 5px;
+    color: white;
+}
+
+
+.tableau_general{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    padding: 10px;
+
+}
+.tableau_japon{
+    padding-right: 10px;
+    padding-left: 5px;
+}
+.tableau_france{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.tableau_us{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.tableau_rok{
+    padding-right: 5px;
+    padding-left: 10px;
+}
+tr, td,th {
+    border : solid black 1px;
+}
+
+
+
+
+
+
+
+:root{
+    --hauteur-menu: 60px;
+}
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: Montserrat, sans-serif;
+}
+nav {
+    width: 100%;
+    font-size: 18px;
+    position: sticky;
+    top: 0;
+    z-index: 10000;
+}
+
+nav > ul {
+    display: flex;
+    text-align: center;
+    box-shadow: 0px 1px 2px 1px black;
+    height: var(--hauteur-menu);
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav > ul > li {
+    position: relative;
+    height: 100%;
+    border: solid linear-gradient(230.46deg, #5F5FF3 -2.98%, #B67DFF 68.14%, #FF83CD 104.54%) 5px;
+    border-radius: 15px;
+    z-index: 1000;
+}
+
+nav > ul > li > a{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1000;
+}
+
+li a {
+    text-decoration: none;
+    color: black;
+}
+
+.menu-deroulant > a:after{
+    content: '❯';
+    font-size: 15px;
+    margin-left: 7px;
+    display: inline-block;
+}
+
+.sub-menu {
+    margin-top: var(--hauteur-menu);
+    width: 100%;
+    text-align: center;
+    background: linear-gradient(230.46deg, #5F5FF3 -2.98%, #B67DFF 68.14%, #FF83CD 104.54%);
+    border-radius: 10px;
+    overflow: hidden;
+    max-height: 0;
+    color: black;
+    margin-right: 103px;
+}
+
+.sub-menu > li > a {
+    height: 40px;
+    padding-left: 20px;
+    width: 100%;
+    align-items: center;
+    display: flex;
+}
+nav > ul > li:hover > a{
+    color: yellow;
+}  
+.sub-menu > li:hover {
+    background-color: rgba(33, 105, 236, 0.3);
+}
+
+.sub-menu > li:hover > a {
+    color: blueviolet;
+}
+
+@keyframes rotationFleche {
+    0% {
+    transform: rotate(0deg);
+    }
+    100%{
+    transform: rotate(90deg);
+    }
+}
+
+.menu-deroulant:hover > a:after{
+    animation: rotationFleche 0.2s linear forwards;
+}
+
+@keyframes apparitionSousMenu {
+    0% {
+    box-shadow: 0px 3px 3px 1px rgba(0,0,0,0);
+    border-top: 3px solid #2169EC;
+    }
+    30% {
+    box-shadow: 0px 3px 3px 1px rgba(0,0,0,0.3);
+    }
+    100% {
+    max-height: 50em;
+    border-top: 3px solid #2169EC;
+    box-shadow: 0px 3px 3px 1px rgba(0,0,0,0.3);
+    }
+}
+
+.menu-deroulant:hover > .sub-menu {
+    animation: apparitionSousMenu 1s forwards;
+}
+
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1; 
+    top: 0; 
+    left: 0;
+    background-color: #111; 
+    overflow-x: hidden; 
+    padding-top: 30px; 
+    transition: 0.5s; 
+    background : linear-gradient(to bottom right, transparent, blueviolet);
+
+}
+
+.sidenav p {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 12px;
+    color: #818181;
+    display: block;
+    transition: 0.01s;
+    text-align: justify;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.sidenav h2{
+    color: white;
+    text-align: center;
+}
+
+.sidenav a:hover {
+    color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+#main {
+    transition: margin-left 0.5s;
+    padding: 20px;
+    
+}
+
+@media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+}
+.side_babar{
+    display: flex;
+    text-decoration: none;
+    text-align: left;
+    font-size: 50px;
+}
+
+.scrolling{
+        background : linear-gradient(to bottom right, transparent, blueviolet);
+        border: 1px solid black;
+        border-radius: 10px;
+        height: 1000px;
+        width: 90%;
+        overflow-y: scroll;
+        margin-right: auto;
+        margin-left: auto;
+        padding-top: 5px;
+}
+.scrolling::-webkit-scrollbar {
+    width: 12px;
+}
+
+.scrolling::-webkit-scrollbar-track {
+    background: pink;
+}
+
+.scrolling::-webkit-scrollbar-thumb {
+    background-color: blueviolet;
+    border-radius: 20px;
+}
+.espace_scroll{
+    margin-bottom: 20px;
+    border-bottom: dashed;
+}
+
+.login{
+    display: flex;
+}
